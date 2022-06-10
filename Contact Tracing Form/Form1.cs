@@ -1,10 +1,11 @@
 namespace Contact_Tracing_Form
 {
-    public partial class Form1 : Form
+    public partial class frmContactTracing : Form
     {
-        public Form1()
+        public frmContactTracing()
         {
             InitializeComponent();
         }
+
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\Contact Tracing Form.exe
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\Contact Tracing Form.deps.json
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\Contact Tracing Form.runtimeconfig.json
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\Contact Tracing Form.dll
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\Contact Tracing Form.pdb
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact_Tracing_Form.frmContactTracing.resources
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.AssemblyInfo.cs
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.dll
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\refint\Contact Tracing Form.dll
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.pdb
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.genruntimeconfig.cache
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\ref\Contact Tracing Form.dll
