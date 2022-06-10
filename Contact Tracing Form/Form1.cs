@@ -23,6 +23,7 @@ namespace Contact_Tracing_Form
             file.WriteLine ("Zip Code: " + txtbxZipCode.Text);
             file.WriteLine ("Purpose: " + txtbxPurpose.Text);
             file.WriteLine ("Body Temperature: " + txtbxBodyTemp.Text);
+           
             file.WriteLine (lblCovid.Text);
             file.WriteLine (lblInstruction.Text);
             file.WriteLine (lblQ1.Text + txtbxQ1.Text);

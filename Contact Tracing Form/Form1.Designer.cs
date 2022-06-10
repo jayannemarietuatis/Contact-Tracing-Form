@@ -299,7 +299,7 @@
             // 
             this.lblClosing.AutoSize = true;
             this.lblClosing.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblClosing.Location = new System.Drawing.Point(167, 871);
+            this.lblClosing.Location = new System.Drawing.Point(293, 881);
             this.lblClosing.Name = "lblClosing";
             this.lblClosing.Size = new System.Drawing.Size(460, 20);
             this.lblClosing.TabIndex = 23;
@@ -476,7 +476,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1072, 997);
+            this.ClientSize = new System.Drawing.Size(1063, 986);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lblContactTrace);
             this.Controls.Add(this.txtbxQ3);
