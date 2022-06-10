@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblContactTracing = new System.Windows.Forms.Label();
             this.lblPersonalInfo = new System.Windows.Forms.Label();
             this.lblFirstName = new System.Windows.Forms.Label();
             this.lblStreet = new System.Windows.Forms.Label();
@@ -66,23 +65,14 @@
             this.txtbxBodyTemp = new System.Windows.Forms.TextBox();
             this.txtbxQ1 = new System.Windows.Forms.TextBox();
             this.txtbxQ2 = new System.Windows.Forms.TextBox();
-            this.txtbxQ3 = new System.Windows.Forms.TextBox();
             this.txtbxQ4 = new System.Windows.Forms.TextBox();
             this.txtbxQ5 = new System.Windows.Forms.TextBox();
             this.txtbxQ6 = new System.Windows.Forms.TextBox();
             this.txtbxQ7 = new System.Windows.Forms.TextBox();
             this.txtbxQ8 = new System.Windows.Forms.TextBox();
+            this.txtbxQ3 = new System.Windows.Forms.TextBox();
+            this.lblContactTrace = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lblContactTracing
-            // 
-            this.lblContactTracing.AutoSize = true;
-            this.lblContactTracing.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblContactTracing.Location = new System.Drawing.Point(281, 9);
-            this.lblContactTracing.Name = "lblContactTracing";
-            this.lblContactTracing.Size = new System.Drawing.Size(321, 37);
-            this.lblContactTracing.TabIndex = 0;
-            this.lblContactTracing.Text = "Contact Tracing Form";
             // 
             // lblPersonalInfo
             // 
@@ -110,9 +100,9 @@
             this.lblStreet.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblStreet.Location = new System.Drawing.Point(31, 307);
             this.lblStreet.Name = "lblStreet";
-            this.lblStreet.Size = new System.Drawing.Size(55, 20);
+            this.lblStreet.Size = new System.Drawing.Size(128, 20);
             this.lblStreet.TabIndex = 3;
-            this.lblStreet.Text = "Street:";
+            this.lblStreet.Text = "Street/Barangay:";
             // 
             // lblHouseNumber
             // 
@@ -198,7 +188,7 @@
             // 
             this.lblCovid.AutoSize = true;
             this.lblCovid.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblCovid.Location = new System.Drawing.Point(214, 509);
+            this.lblCovid.Location = new System.Drawing.Point(376, 496);
             this.lblCovid.Name = "lblCovid";
             this.lblCovid.Size = new System.Drawing.Size(377, 27);
             this.lblCovid.TabIndex = 12;
@@ -208,7 +198,7 @@
             // 
             this.lblInstruction.AutoSize = true;
             this.lblInstruction.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblInstruction.Location = new System.Drawing.Point(236, 536);
+            this.lblInstruction.Location = new System.Drawing.Point(406, 523);
             this.lblInstruction.Name = "lblInstruction";
             this.lblInstruction.Size = new System.Drawing.Size(322, 20);
             this.lblInstruction.TabIndex = 13;
@@ -316,157 +306,171 @@
             // 
             // btnSubmit
             // 
+            this.btnSubmit.BackColor = System.Drawing.Color.LightGreen;
+            this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSubmit.Location = new System.Drawing.Point(896, 887);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(94, 29);
-            this.btnSubmit.TabIndex = 24;
+            this.btnSubmit.Size = new System.Drawing.Size(100, 34);
+            this.btnSubmit.TabIndex = 20;
             this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // txtbxFirstName
             // 
             this.txtbxFirstName.Location = new System.Drawing.Point(214, 106);
             this.txtbxFirstName.Name = "txtbxFirstName";
             this.txtbxFirstName.Size = new System.Drawing.Size(224, 27);
-            this.txtbxFirstName.TabIndex = 25;
+            this.txtbxFirstName.TabIndex = 1;
             // 
             // txtbxLastName
             // 
             this.txtbxLastName.Location = new System.Drawing.Point(214, 142);
             this.txtbxLastName.Name = "txtbxLastName";
             this.txtbxLastName.Size = new System.Drawing.Size(224, 27);
-            this.txtbxLastName.TabIndex = 26;
+            this.txtbxLastName.TabIndex = 2;
             // 
             // txtbxAge
             // 
             this.txtbxAge.Location = new System.Drawing.Point(214, 175);
             this.txtbxAge.Name = "txtbxAge";
             this.txtbxAge.Size = new System.Drawing.Size(143, 27);
-            this.txtbxAge.TabIndex = 27;
+            this.txtbxAge.TabIndex = 3;
             // 
             // txtbxGender
             // 
             this.txtbxGender.Location = new System.Drawing.Point(214, 208);
             this.txtbxGender.Name = "txtbxGender";
             this.txtbxGender.Size = new System.Drawing.Size(143, 27);
-            this.txtbxGender.TabIndex = 28;
+            this.txtbxGender.TabIndex = 4;
             // 
             // txtbxContactNumber
             // 
             this.txtbxContactNumber.Location = new System.Drawing.Point(214, 241);
             this.txtbxContactNumber.Name = "txtbxContactNumber";
             this.txtbxContactNumber.Size = new System.Drawing.Size(204, 27);
-            this.txtbxContactNumber.TabIndex = 29;
+            this.txtbxContactNumber.TabIndex = 5;
             // 
             // txtbxHouseNumber
             // 
             this.txtbxHouseNumber.Location = new System.Drawing.Point(214, 274);
             this.txtbxHouseNumber.Name = "txtbxHouseNumber";
             this.txtbxHouseNumber.Size = new System.Drawing.Size(143, 27);
-            this.txtbxHouseNumber.TabIndex = 30;
+            this.txtbxHouseNumber.TabIndex = 6;
             // 
             // txtbxStreet
             // 
             this.txtbxStreet.Location = new System.Drawing.Point(214, 307);
             this.txtbxStreet.Name = "txtbxStreet";
             this.txtbxStreet.Size = new System.Drawing.Size(204, 27);
-            this.txtbxStreet.TabIndex = 31;
+            this.txtbxStreet.TabIndex = 7;
             // 
             // txtbxCity
             // 
             this.txtbxCity.Location = new System.Drawing.Point(214, 341);
             this.txtbxCity.Name = "txtbxCity";
             this.txtbxCity.Size = new System.Drawing.Size(204, 27);
-            this.txtbxCity.TabIndex = 32;
+            this.txtbxCity.TabIndex = 8;
             // 
             // txtbxZipCode
             // 
             this.txtbxZipCode.Location = new System.Drawing.Point(214, 374);
             this.txtbxZipCode.Name = "txtbxZipCode";
             this.txtbxZipCode.Size = new System.Drawing.Size(110, 27);
-            this.txtbxZipCode.TabIndex = 33;
+            this.txtbxZipCode.TabIndex = 9;
             // 
             // txtbxPurpose
             // 
             this.txtbxPurpose.Location = new System.Drawing.Point(214, 412);
             this.txtbxPurpose.Name = "txtbxPurpose";
             this.txtbxPurpose.Size = new System.Drawing.Size(319, 27);
-            this.txtbxPurpose.TabIndex = 34;
+            this.txtbxPurpose.TabIndex = 10;
             // 
             // txtbxBodyTemp
             // 
             this.txtbxBodyTemp.Location = new System.Drawing.Point(214, 444);
             this.txtbxBodyTemp.Name = "txtbxBodyTemp";
             this.txtbxBodyTemp.Size = new System.Drawing.Size(110, 27);
-            this.txtbxBodyTemp.TabIndex = 35;
+            this.txtbxBodyTemp.TabIndex = 11;
             // 
             // txtbxQ1
             // 
             this.txtbxQ1.Location = new System.Drawing.Point(281, 585);
             this.txtbxQ1.Name = "txtbxQ1";
             this.txtbxQ1.Size = new System.Drawing.Size(83, 27);
-            this.txtbxQ1.TabIndex = 36;
+            this.txtbxQ1.TabIndex = 12;
             // 
             // txtbxQ2
             // 
             this.txtbxQ2.Location = new System.Drawing.Point(281, 650);
             this.txtbxQ2.Name = "txtbxQ2";
             this.txtbxQ2.Size = new System.Drawing.Size(83, 27);
-            this.txtbxQ2.TabIndex = 37;
-            // 
-            // txtbxQ3
-            // 
-            this.txtbxQ3.Location = new System.Drawing.Point(281, 713);
-            this.txtbxQ3.Name = "txtbxQ3";
-            this.txtbxQ3.Size = new System.Drawing.Size(83, 27);
-            this.txtbxQ3.TabIndex = 38;
+            this.txtbxQ2.TabIndex = 13;
             // 
             // txtbxQ4
             // 
             this.txtbxQ4.Location = new System.Drawing.Point(281, 797);
             this.txtbxQ4.Name = "txtbxQ4";
             this.txtbxQ4.Size = new System.Drawing.Size(83, 27);
-            this.txtbxQ4.TabIndex = 39;
+            this.txtbxQ4.TabIndex = 15;
             // 
             // txtbxQ5
             // 
             this.txtbxQ5.Location = new System.Drawing.Point(803, 585);
             this.txtbxQ5.Name = "txtbxQ5";
             this.txtbxQ5.Size = new System.Drawing.Size(83, 27);
-            this.txtbxQ5.TabIndex = 40;
+            this.txtbxQ5.TabIndex = 16;
             // 
             // txtbxQ6
             // 
             this.txtbxQ6.Location = new System.Drawing.Point(803, 650);
             this.txtbxQ6.Name = "txtbxQ6";
             this.txtbxQ6.Size = new System.Drawing.Size(83, 27);
-            this.txtbxQ6.TabIndex = 41;
+            this.txtbxQ6.TabIndex = 17;
             // 
             // txtbxQ7
             // 
             this.txtbxQ7.Location = new System.Drawing.Point(803, 729);
             this.txtbxQ7.Name = "txtbxQ7";
             this.txtbxQ7.Size = new System.Drawing.Size(83, 27);
-            this.txtbxQ7.TabIndex = 42;
+            this.txtbxQ7.TabIndex = 18;
             // 
             // txtbxQ8
             // 
             this.txtbxQ8.Location = new System.Drawing.Point(803, 797);
             this.txtbxQ8.Name = "txtbxQ8";
             this.txtbxQ8.Size = new System.Drawing.Size(83, 27);
-            this.txtbxQ8.TabIndex = 43;
+            this.txtbxQ8.TabIndex = 19;
+            // 
+            // txtbxQ3
+            // 
+            this.txtbxQ3.Location = new System.Drawing.Point(281, 716);
+            this.txtbxQ3.Name = "txtbxQ3";
+            this.txtbxQ3.Size = new System.Drawing.Size(83, 27);
+            this.txtbxQ3.TabIndex = 14;
+            // 
+            // lblContactTrace
+            // 
+            this.lblContactTrace.AutoSize = true;
+            this.lblContactTrace.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblContactTrace.Location = new System.Drawing.Point(407, 20);
+            this.lblContactTrace.Name = "lblContactTrace";
+            this.lblContactTrace.Size = new System.Drawing.Size(321, 37);
+            this.lblContactTrace.TabIndex = 24;
+            this.lblContactTrace.Text = "Contact Tracing Form";
             // 
             // frmContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1062, 973);
+            this.Controls.Add(this.lblContactTrace);
+            this.Controls.Add(this.txtbxQ3);
             this.Controls.Add(this.txtbxQ8);
             this.Controls.Add(this.txtbxQ7);
             this.Controls.Add(this.txtbxQ6);
             this.Controls.Add(this.txtbxQ5);
             this.Controls.Add(this.txtbxQ4);
-            this.Controls.Add(this.txtbxQ3);
             this.Controls.Add(this.txtbxQ2);
             this.Controls.Add(this.txtbxQ1);
             this.Controls.Add(this.txtbxBodyTemp);
@@ -504,8 +508,7 @@
             this.Controls.Add(this.lblStreet);
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.lblPersonalInfo);
-            this.Controls.Add(this.lblContactTracing);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmContactTracing";
             this.Text = "Contact Tracing Form";
             this.ResumeLayout(false);
@@ -514,8 +517,6 @@
         }
 
         #endregion
-
-        private Label lblContactTracing;
         private Label lblPersonalInfo;
         private Label lblFirstName;
         private Label lblStreet;
@@ -553,11 +554,12 @@
         private TextBox txtbxBodyTemp;
         private TextBox txtbxQ1;
         private TextBox txtbxQ2;
-        private TextBox txtbxQ3;
         private TextBox txtbxQ4;
         private TextBox txtbxQ5;
         private TextBox txtbxQ6;
         private TextBox txtbxQ7;
         private TextBox txtbxQ8;
+        private TextBox txtbxQ3;
+        private Label lblContactTrace;
     }
 }
