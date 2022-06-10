@@ -37,5 +37,9 @@ namespace Contact_Tracing_Form
             file.Close();
         }
 
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

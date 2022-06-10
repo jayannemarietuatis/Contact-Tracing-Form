@@ -72,6 +72,7 @@
             this.txtbxQ8 = new System.Windows.Forms.TextBox();
             this.txtbxQ3 = new System.Windows.Forms.TextBox();
             this.lblContactTrace = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblPersonalInfo
@@ -308,11 +309,11 @@
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.LightGreen;
             this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSubmit.Location = new System.Drawing.Point(896, 887);
+            this.btnSubmit.Location = new System.Drawing.Point(925, 881);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(100, 34);
             this.btnSubmit.TabIndex = 20;
-            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.Text = "&Submit";
             this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
@@ -459,11 +460,24 @@
             this.lblContactTrace.TabIndex = 24;
             this.lblContactTrace.Text = "Contact Tracing Form";
             // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.Salmon;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnClose.Location = new System.Drawing.Point(925, 921);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(100, 34);
+            this.btnClose.TabIndex = 25;
+            this.btnClose.Text = "&Close";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // frmContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1062, 973);
+            this.ClientSize = new System.Drawing.Size(1072, 997);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lblContactTrace);
             this.Controls.Add(this.txtbxQ3);
             this.Controls.Add(this.txtbxQ8);
@@ -561,5 +575,6 @@
         private TextBox txtbxQ8;
         private TextBox txtbxQ3;
         private Label lblContactTrace;
+        private Button btnClose;
     }
 }
