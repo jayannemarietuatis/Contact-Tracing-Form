@@ -73,6 +73,8 @@
             this.txtbxQ3 = new System.Windows.Forms.TextBox();
             this.lblContactTrace = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.txtbxDate = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblPersonalInfo
@@ -309,7 +311,7 @@
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.LightGreen;
             this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSubmit.Location = new System.Drawing.Point(925, 881);
+            this.btnSubmit.Location = new System.Drawing.Point(925, 856);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(100, 34);
             this.btnSubmit.TabIndex = 20;
@@ -464,7 +466,7 @@
             // 
             this.btnClose.BackColor = System.Drawing.Color.Salmon;
             this.btnClose.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnClose.Location = new System.Drawing.Point(925, 921);
+            this.btnClose.Location = new System.Drawing.Point(925, 896);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(100, 34);
             this.btnClose.TabIndex = 25;
@@ -472,11 +474,30 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDate.Location = new System.Drawing.Point(597, 113);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(46, 20);
+            this.lblDate.TabIndex = 26;
+            this.lblDate.Text = "Date:";
+            // 
+            // txtbxDate
+            // 
+            this.txtbxDate.Location = new System.Drawing.Point(662, 106);
+            this.txtbxDate.Name = "txtbxDate";
+            this.txtbxDate.Size = new System.Drawing.Size(224, 27);
+            this.txtbxDate.TabIndex = 27;
+            // 
             // frmContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1063, 986);
+            this.Controls.Add(this.txtbxDate);
+            this.Controls.Add(this.lblDate);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lblContactTrace);
             this.Controls.Add(this.txtbxQ3);
@@ -576,5 +597,7 @@
         private TextBox txtbxQ3;
         private Label lblContactTrace;
         private Button btnClose;
+        private Label lblDate;
+        private TextBox txtbxDate;
     }
 }
