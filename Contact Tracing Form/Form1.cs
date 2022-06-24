@@ -47,5 +47,12 @@ namespace Contact_Tracing_Form
         {
 
         }
+
+        private void btnResults_Click(object sender, EventArgs e)
+        {
+            StreamReader reader = new StreamReader(@"C:\Users\DELL\Desktop\JAY ANNE\PUP\2ND SEM\OBJECT PROG\Contact Tracing Form.txt");
+            string all = reader.ReadToEnd();
+            MessageBox.Show(all);
+        }
     }
 }

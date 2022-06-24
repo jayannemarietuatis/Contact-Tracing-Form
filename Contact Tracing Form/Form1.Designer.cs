@@ -503,6 +503,7 @@
             this.btnResults.TabIndex = 28;
             this.btnResults.Text = "See results";
             this.btnResults.UseVisualStyleBackColor = false;
+            this.btnResults.Click += new System.EventHandler(this.btnResults_Click);
             // 
             // frmContactTracing
             // 
