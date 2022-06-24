@@ -75,6 +75,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.lblDate = new System.Windows.Forms.Label();
             this.txtbxDate = new System.Windows.Forms.TextBox();
+            this.btnResults = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblPersonalInfo
@@ -492,11 +493,23 @@
             this.txtbxDate.Size = new System.Drawing.Size(224, 27);
             this.txtbxDate.TabIndex = 27;
             // 
+            // btnResults
+            // 
+            this.btnResults.BackColor = System.Drawing.Color.Snow;
+            this.btnResults.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnResults.Location = new System.Drawing.Point(882, 880);
+            this.btnResults.Name = "btnResults";
+            this.btnResults.Size = new System.Drawing.Size(116, 38);
+            this.btnResults.TabIndex = 28;
+            this.btnResults.Text = "See results";
+            this.btnResults.UseVisualStyleBackColor = false;
+            // 
             // frmContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1063, 986);
+            this.Controls.Add(this.btnResults);
             this.Controls.Add(this.txtbxDate);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.btnClose);
@@ -600,5 +613,6 @@
         private Button btnClose;
         private Label lblDate;
         private TextBox txtbxDate;
+        private Button btnResults;
     }
 }
