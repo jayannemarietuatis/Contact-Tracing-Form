@@ -101,7 +101,7 @@
             // 
             this.lblStreet.AutoSize = true;
             this.lblStreet.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblStreet.Location = new System.Drawing.Point(31, 307);
+            this.lblStreet.Location = new System.Drawing.Point(515, 142);
             this.lblStreet.Name = "lblStreet";
             this.lblStreet.Size = new System.Drawing.Size(128, 20);
             this.lblStreet.TabIndex = 3;
@@ -161,7 +161,7 @@
             // 
             this.lblCity.AutoSize = true;
             this.lblCity.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblCity.Location = new System.Drawing.Point(31, 341);
+            this.lblCity.Location = new System.Drawing.Point(558, 175);
             this.lblCity.Name = "lblCity";
             this.lblCity.Size = new System.Drawing.Size(85, 20);
             this.lblCity.TabIndex = 9;
@@ -171,7 +171,7 @@
             // 
             this.lblZipCode.AutoSize = true;
             this.lblZipCode.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblZipCode.Location = new System.Drawing.Point(31, 377);
+            this.lblZipCode.Location = new System.Drawing.Point(569, 208);
             this.lblZipCode.Name = "lblZipCode";
             this.lblZipCode.Size = new System.Drawing.Size(74, 20);
             this.lblZipCode.TabIndex = 10;
@@ -181,7 +181,7 @@
             // 
             this.lblPurpose.AutoSize = true;
             this.lblPurpose.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPurpose.Location = new System.Drawing.Point(31, 412);
+            this.lblPurpose.Location = new System.Drawing.Point(569, 239);
             this.lblPurpose.Name = "lblPurpose";
             this.lblPurpose.Size = new System.Drawing.Size(70, 20);
             this.lblPurpose.TabIndex = 11;
@@ -191,7 +191,7 @@
             // 
             this.lblCovid.AutoSize = true;
             this.lblCovid.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblCovid.Location = new System.Drawing.Point(376, 496);
+            this.lblCovid.Location = new System.Drawing.Point(340, 347);
             this.lblCovid.Name = "lblCovid";
             this.lblCovid.Size = new System.Drawing.Size(377, 27);
             this.lblCovid.TabIndex = 12;
@@ -201,7 +201,7 @@
             // 
             this.lblInstruction.AutoSize = true;
             this.lblInstruction.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblInstruction.Location = new System.Drawing.Point(406, 523);
+            this.lblInstruction.Location = new System.Drawing.Point(376, 374);
             this.lblInstruction.Name = "lblInstruction";
             this.lblInstruction.Size = new System.Drawing.Size(322, 20);
             this.lblInstruction.TabIndex = 13;
@@ -211,7 +211,7 @@
             // 
             this.lblQ1.AutoSize = true;
             this.lblQ1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQ1.Location = new System.Drawing.Point(31, 585);
+            this.lblQ1.Location = new System.Drawing.Point(31, 456);
             this.lblQ1.Name = "lblQ1";
             this.lblQ1.Size = new System.Drawing.Size(214, 40);
             this.lblQ1.TabIndex = 14;
@@ -221,7 +221,7 @@
             // 
             this.lblQ2.AutoSize = true;
             this.lblQ2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQ2.Location = new System.Drawing.Point(31, 650);
+            this.lblQ2.Location = new System.Drawing.Point(31, 528);
             this.lblQ2.Name = "lblQ2";
             this.lblQ2.Size = new System.Drawing.Size(192, 40);
             this.lblQ2.TabIndex = 15;
@@ -231,7 +231,7 @@
             // 
             this.lblQ3.AutoSize = true;
             this.lblQ3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQ3.Location = new System.Drawing.Point(31, 716);
+            this.lblQ3.Location = new System.Drawing.Point(31, 613);
             this.lblQ3.Name = "lblQ3";
             this.lblQ3.Size = new System.Drawing.Size(144, 40);
             this.lblQ3.TabIndex = 16;
@@ -241,7 +241,7 @@
             // 
             this.lblQ4.AutoSize = true;
             this.lblQ4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQ4.Location = new System.Drawing.Point(31, 784);
+            this.lblQ4.Location = new System.Drawing.Point(25, 683);
             this.lblQ4.Name = "lblQ4";
             this.lblQ4.Size = new System.Drawing.Size(220, 60);
             this.lblQ4.TabIndex = 17;
@@ -251,7 +251,7 @@
             // 
             this.lblQ5.AutoSize = true;
             this.lblQ5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQ5.Location = new System.Drawing.Point(503, 585);
+            this.lblQ5.Location = new System.Drawing.Point(470, 456);
             this.lblQ5.Name = "lblQ5";
             this.lblQ5.Size = new System.Drawing.Size(173, 40);
             this.lblQ5.TabIndex = 18;
@@ -261,7 +261,7 @@
             // 
             this.lblQ6.AutoSize = true;
             this.lblQ6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQ6.Location = new System.Drawing.Point(503, 650);
+            this.lblQ6.Location = new System.Drawing.Point(470, 525);
             this.lblQ6.Name = "lblQ6";
             this.lblQ6.Size = new System.Drawing.Size(225, 40);
             this.lblQ6.TabIndex = 19;
@@ -271,7 +271,7 @@
             // 
             this.lblQ7.AutoSize = true;
             this.lblQ7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQ7.Location = new System.Drawing.Point(503, 716);
+            this.lblQ7.Location = new System.Drawing.Point(467, 613);
             this.lblQ7.Name = "lblQ7";
             this.lblQ7.Size = new System.Drawing.Size(250, 40);
             this.lblQ7.TabIndex = 20;
@@ -281,7 +281,7 @@
             // 
             this.lblQ8.AutoSize = true;
             this.lblQ8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQ8.Location = new System.Drawing.Point(503, 784);
+            this.lblQ8.Location = new System.Drawing.Point(470, 698);
             this.lblQ8.Name = "lblQ8";
             this.lblQ8.Size = new System.Drawing.Size(232, 40);
             this.lblQ8.TabIndex = 21;
@@ -291,7 +291,7 @@
             // 
             this.lblBodyTemp.AutoSize = true;
             this.lblBodyTemp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblBodyTemp.Location = new System.Drawing.Point(31, 447);
+            this.lblBodyTemp.Location = new System.Drawing.Point(536, 268);
             this.lblBodyTemp.Name = "lblBodyTemp";
             this.lblBodyTemp.Size = new System.Drawing.Size(103, 40);
             this.lblBodyTemp.TabIndex = 22;
@@ -301,7 +301,7 @@
             // 
             this.lblClosing.AutoSize = true;
             this.lblClosing.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblClosing.Location = new System.Drawing.Point(293, 881);
+            this.lblClosing.Location = new System.Drawing.Point(257, 801);
             this.lblClosing.Name = "lblClosing";
             this.lblClosing.Size = new System.Drawing.Size(460, 20);
             this.lblClosing.TabIndex = 23;
@@ -311,7 +311,7 @@
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.LightGreen;
             this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSubmit.Location = new System.Drawing.Point(925, 856);
+            this.btnSubmit.Location = new System.Drawing.Point(882, 776);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(100, 34);
             this.btnSubmit.TabIndex = 20;
@@ -363,91 +363,92 @@
             // 
             // txtbxStreet
             // 
-            this.txtbxStreet.Location = new System.Drawing.Point(214, 307);
+            this.txtbxStreet.Location = new System.Drawing.Point(662, 142);
             this.txtbxStreet.Name = "txtbxStreet";
             this.txtbxStreet.Size = new System.Drawing.Size(204, 27);
             this.txtbxStreet.TabIndex = 7;
             // 
             // txtbxCity
             // 
-            this.txtbxCity.Location = new System.Drawing.Point(214, 341);
+            this.txtbxCity.Location = new System.Drawing.Point(662, 175);
             this.txtbxCity.Name = "txtbxCity";
             this.txtbxCity.Size = new System.Drawing.Size(204, 27);
             this.txtbxCity.TabIndex = 8;
             // 
             // txtbxZipCode
             // 
-            this.txtbxZipCode.Location = new System.Drawing.Point(214, 374);
+            this.txtbxZipCode.Location = new System.Drawing.Point(662, 208);
             this.txtbxZipCode.Name = "txtbxZipCode";
             this.txtbxZipCode.Size = new System.Drawing.Size(110, 27);
             this.txtbxZipCode.TabIndex = 9;
             // 
             // txtbxPurpose
             // 
-            this.txtbxPurpose.Location = new System.Drawing.Point(214, 412);
+            this.txtbxPurpose.Location = new System.Drawing.Point(662, 241);
             this.txtbxPurpose.Name = "txtbxPurpose";
-            this.txtbxPurpose.Size = new System.Drawing.Size(319, 27);
+            this.txtbxPurpose.Size = new System.Drawing.Size(279, 27);
             this.txtbxPurpose.TabIndex = 10;
             // 
             // txtbxBodyTemp
             // 
-            this.txtbxBodyTemp.Location = new System.Drawing.Point(214, 444);
+            this.txtbxBodyTemp.Location = new System.Drawing.Point(662, 274);
             this.txtbxBodyTemp.Name = "txtbxBodyTemp";
             this.txtbxBodyTemp.Size = new System.Drawing.Size(110, 27);
             this.txtbxBodyTemp.TabIndex = 11;
             // 
             // txtbxQ1
             // 
-            this.txtbxQ1.Location = new System.Drawing.Point(281, 585);
+            this.txtbxQ1.Location = new System.Drawing.Point(310, 456);
             this.txtbxQ1.Name = "txtbxQ1";
             this.txtbxQ1.Size = new System.Drawing.Size(83, 27);
             this.txtbxQ1.TabIndex = 12;
             // 
             // txtbxQ2
             // 
-            this.txtbxQ2.Location = new System.Drawing.Point(281, 650);
+            this.txtbxQ2.Location = new System.Drawing.Point(310, 525);
             this.txtbxQ2.Name = "txtbxQ2";
             this.txtbxQ2.Size = new System.Drawing.Size(83, 27);
             this.txtbxQ2.TabIndex = 13;
             // 
             // txtbxQ4
             // 
-            this.txtbxQ4.Location = new System.Drawing.Point(281, 797);
+            this.txtbxQ4.Location = new System.Drawing.Point(310, 698);
             this.txtbxQ4.Name = "txtbxQ4";
             this.txtbxQ4.Size = new System.Drawing.Size(83, 27);
             this.txtbxQ4.TabIndex = 15;
             // 
             // txtbxQ5
             // 
-            this.txtbxQ5.Location = new System.Drawing.Point(803, 585);
+            this.txtbxQ5.Location = new System.Drawing.Point(769, 469);
             this.txtbxQ5.Name = "txtbxQ5";
             this.txtbxQ5.Size = new System.Drawing.Size(83, 27);
             this.txtbxQ5.TabIndex = 16;
             // 
             // txtbxQ6
             // 
-            this.txtbxQ6.Location = new System.Drawing.Point(803, 650);
+            this.txtbxQ6.Location = new System.Drawing.Point(769, 538);
             this.txtbxQ6.Name = "txtbxQ6";
             this.txtbxQ6.Size = new System.Drawing.Size(83, 27);
             this.txtbxQ6.TabIndex = 17;
             // 
             // txtbxQ7
             // 
-            this.txtbxQ7.Location = new System.Drawing.Point(803, 729);
+            this.txtbxQ7.Location = new System.Drawing.Point(769, 626);
             this.txtbxQ7.Name = "txtbxQ7";
             this.txtbxQ7.Size = new System.Drawing.Size(83, 27);
             this.txtbxQ7.TabIndex = 18;
+            this.txtbxQ7.TextChanged += new System.EventHandler(this.txtbxQ7_TextChanged);
             // 
             // txtbxQ8
             // 
-            this.txtbxQ8.Location = new System.Drawing.Point(803, 797);
+            this.txtbxQ8.Location = new System.Drawing.Point(769, 698);
             this.txtbxQ8.Name = "txtbxQ8";
             this.txtbxQ8.Size = new System.Drawing.Size(83, 27);
             this.txtbxQ8.TabIndex = 19;
             // 
             // txtbxQ3
             // 
-            this.txtbxQ3.Location = new System.Drawing.Point(281, 716);
+            this.txtbxQ3.Location = new System.Drawing.Point(310, 613);
             this.txtbxQ3.Name = "txtbxQ3";
             this.txtbxQ3.Size = new System.Drawing.Size(83, 27);
             this.txtbxQ3.TabIndex = 14;
@@ -456,7 +457,7 @@
             // 
             this.lblContactTrace.AutoSize = true;
             this.lblContactTrace.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblContactTrace.Location = new System.Drawing.Point(407, 20);
+            this.lblContactTrace.Location = new System.Drawing.Point(376, 20);
             this.lblContactTrace.Name = "lblContactTrace";
             this.lblContactTrace.Size = new System.Drawing.Size(321, 37);
             this.lblContactTrace.TabIndex = 24;
@@ -466,7 +467,7 @@
             // 
             this.btnClose.BackColor = System.Drawing.Color.Salmon;
             this.btnClose.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnClose.Location = new System.Drawing.Point(925, 896);
+            this.btnClose.Location = new System.Drawing.Point(882, 826);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(100, 34);
             this.btnClose.TabIndex = 25;

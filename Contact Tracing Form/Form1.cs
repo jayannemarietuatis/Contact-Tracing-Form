@@ -42,5 +42,10 @@ namespace Contact_Tracing_Form
         {
             this.Close();
         }
+
+        private void txtbxQ7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
