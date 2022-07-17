@@ -18,6 +18,7 @@ namespace Contact_Tracing_Form
             file.WriteLine ("Gender: " + txtbxGender.Text);
             file.WriteLine ("Contact Number: " + txtbxContactNumber.Text);
             file.WriteLine ("House Number: " + txtbxHouseNumber.Text);
+            file.WriteLine("Date: " + txtbxDate.Text);
             file.WriteLine ("Street/Barangay: " + txtbxStreet.Text);
             file.WriteLine ("City/Town: " + txtbxCity.Text);
             file.WriteLine ("Zip Code: " + txtbxZipCode.Text);
@@ -58,6 +59,36 @@ namespace Contact_Tracing_Form
         private void frmContactTracing_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            StreamReader reader = new StreamReader(@"C:\Users\DELL\Desktop\JAY ANNE\PUP\2ND SEM\OBJECT PROG\Contact Tracing Form.txt");
+
+            string Line;
+            string info = txtbxSearch.Text;
+            bool dateExist = false;
+
+            do
+            {
+                Line = reader.ReadLine();
+                if (Line != null)
+                {
+                    dateExist = Line.Contains(info);
+                    MessageBox.Show(Line);
+                }
+
+                else
+                {
+                    MessageBox.Show(txtbxSearch.Text + "does not exist");
+                }
+            }
+            while (Line != null && !dateExist);
+
+            if (dateExist)
+            {
+                MessageBox.Show(info);
+            }
         }
     }
 }
