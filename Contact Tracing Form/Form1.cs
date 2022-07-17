@@ -54,5 +54,10 @@ namespace Contact_Tracing_Form
             string all = reader.ReadToEnd();
             MessageBox.Show(all);
         }
+
+        private void frmContactTracing_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
