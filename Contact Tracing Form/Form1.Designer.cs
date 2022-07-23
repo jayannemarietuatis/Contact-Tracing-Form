@@ -78,6 +78,11 @@
             this.btnResults = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtbxSearch = new System.Windows.Forms.TextBox();
+            this.picbxQR = new System.Windows.Forms.PictureBox();
+            this.lblGetQR = new System.Windows.Forms.Label();
+            this.btnGenerateQR = new System.Windows.Forms.Button();
+            this.btnDownloadQR = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.picbxQR)).BeginInit();
             this.SuspendLayout();
             // 
             // lblPersonalInfo
@@ -509,7 +514,7 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(1203, 30);
+            this.btnSearch.Location = new System.Drawing.Point(1178, 32);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(94, 29);
             this.btnSearch.TabIndex = 29;
@@ -519,16 +524,58 @@
             // 
             // txtbxSearch
             // 
-            this.txtbxSearch.Location = new System.Drawing.Point(996, 30);
+            this.txtbxSearch.Location = new System.Drawing.Point(958, 32);
             this.txtbxSearch.Name = "txtbxSearch";
             this.txtbxSearch.Size = new System.Drawing.Size(201, 27);
             this.txtbxSearch.TabIndex = 30;
+            // 
+            // picbxQR
+            // 
+            this.picbxQR.Location = new System.Drawing.Point(838, 122);
+            this.picbxQR.Name = "picbxQR";
+            this.picbxQR.Size = new System.Drawing.Size(334, 299);
+            this.picbxQR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picbxQR.TabIndex = 31;
+            this.picbxQR.TabStop = false;
+            // 
+            // lblGetQR
+            // 
+            this.lblGetQR.AutoSize = true;
+            this.lblGetQR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGetQR.Location = new System.Drawing.Point(864, 86);
+            this.lblGetQR.Name = "lblGetQR";
+            this.lblGetQR.Size = new System.Drawing.Size(144, 20);
+            this.lblGetQR.TabIndex = 32;
+            this.lblGetQR.Text = "Your QR Code here:";
+            // 
+            // btnGenerateQR
+            // 
+            this.btnGenerateQR.Location = new System.Drawing.Point(1178, 296);
+            this.btnGenerateQR.Name = "btnGenerateQR";
+            this.btnGenerateQR.Size = new System.Drawing.Size(166, 40);
+            this.btnGenerateQR.TabIndex = 33;
+            this.btnGenerateQR.Text = "Generate QR Code";
+            this.btnGenerateQR.UseVisualStyleBackColor = true;
+            this.btnGenerateQR.Click += new System.EventHandler(this.btnGenerateQR_Click);
+            // 
+            // btnDownloadQR
+            // 
+            this.btnDownloadQR.Location = new System.Drawing.Point(1178, 342);
+            this.btnDownloadQR.Name = "btnDownloadQR";
+            this.btnDownloadQR.Size = new System.Drawing.Size(166, 40);
+            this.btnDownloadQR.TabIndex = 34;
+            this.btnDownloadQR.Text = "Download QR Code";
+            this.btnDownloadQR.UseVisualStyleBackColor = true;
             // 
             // frmContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1335, 986);
+            this.ClientSize = new System.Drawing.Size(1356, 986);
+            this.Controls.Add(this.btnDownloadQR);
+            this.Controls.Add(this.btnGenerateQR);
+            this.Controls.Add(this.lblGetQR);
+            this.Controls.Add(this.picbxQR);
             this.Controls.Add(this.txtbxSearch);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnResults);
@@ -583,6 +630,7 @@
             this.Name = "frmContactTracing";
             this.Text = "Contact Tracing Form";
             this.Load += new System.EventHandler(this.frmContactTracing_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picbxQR)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -639,5 +687,9 @@
         private Button btnResults;
         private Button btnSearch;
         private TextBox txtbxSearch;
+        private PictureBox picbxQR;
+        private Label lblGetQR;
+        private Button btnGenerateQR;
+        private Button btnDownloadQR;
     }
 }

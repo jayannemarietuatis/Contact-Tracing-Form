@@ -90,5 +90,16 @@ namespace Contact_Tracing_Form
                 MessageBox.Show(info);
             }
         }
+         
+        private void btnGenerateQR_Click(object sender, EventArgs e)
+        {
+            QRCoder.QRCodeGenerator GetQR = new QRCoder.QRCodeGenerator();
+            var text = (txtbxFirstName.Text + txtbxLastName.Text + txtbxAge.Text + txtbxGender.Text +
+                txtbxContactNumber.Text + txtbxHouseNumber.Text + txtbxDate.Text + txtbxStreet.Text +
+                txtbxCity.Text + txtbxZipCode.Text + txtbxPurpose.Text + txtbxBodyTemp.Text);
+            var info = GetQR.CreateQrCode(text, QRCoder.QRCodeGenerator.ECCLevel.H);
+            var code = new QRCoder.QRCode(info);
+            picbxQR.Image = code.GetGraphic(50);
+        }
     }
 }

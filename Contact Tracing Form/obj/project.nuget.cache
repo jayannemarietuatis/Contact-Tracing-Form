@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "X6tpE63GFZkb67Ntl2telemS4hJGFOnyNC+o4lA2FiJgHvOaM6wgKdGhDsrK/0qfUk6RW6LptmIhZCt0D0MTLg==",
+  "dgSpecHash": "H5vjWe7l28fvi+uVd0C1HzIEk5SdzuPA+ELapzUI7i6EbM7uXbKZz9GH6OrN/SsQilm6CYMxOe+sd/gRT4kBbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Desktop\\OOP Projects\\Contact Tracing Form\\Contact Tracing Form\\Contact Tracing Form.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\qrcoder\\1.3.3\\qrcoder.1.3.3.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.drawing.common\\4.5.0-preview1-25914-04\\system.drawing.common.4.5.0-preview1-25914-04.nupkg.sha512"
+  ],
   "logs": []
 }

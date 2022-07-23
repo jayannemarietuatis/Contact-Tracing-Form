@@ -5,7 +5,71 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {}
+    ".NETCoreApp,Version=v6.0": {
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "QRCoder/1.3.3": {
+        "dependencies": {
+          "System.Drawing.Common": "4.5.0-preview1-25914-04"
+        },
+        "runtime": {
+          "lib/netstandard2.0/QRCoder.dll": {
+            "assemblyVersion": "1.3.3.0",
+            "fileVersion": "1.3.3.0"
+          },
+          "lib/netstandard2.0/UnityEngine.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/4.5.0-preview1-25914-04": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25914.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25914.4"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25914.4"
+          }
+        }
+      }
+    }
   },
-  "libraries": {}
+  "libraries": {
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "QRCoder/1.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V60dUrLxraB1OjgXToEy4LHELk0CUDYJojvKEw4tBesWonYR7xN57eveFtS8A0eHzgGaBmr15Ex2qJoj3QF+Nw==",
+      "path": "qrcoder/1.3.3",
+      "hashPath": "qrcoder.1.3.3.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.0-preview1-25914-04": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xe9fRaplCuFFkqa2FNSuhZrux4ENP6b1sKxcGIqI0en4aEDMHsHQxtIwwkMsvlKDHoFlLcPkvpUefUnttajA8w==",
+      "path": "system.drawing.common/4.5.0-preview1-25914-04",
+      "hashPath": "system.drawing.common.4.5.0-preview1-25914-04.nupkg.sha512"
+    }
+  }
 }
