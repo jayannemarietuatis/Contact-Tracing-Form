@@ -101,5 +101,17 @@ namespace Contact_Tracing_Form
             var code = new QRCoder.QRCode(info);
             picbxQR.Image = code.GetGraphic(50);
         }
+
+        private void btnDownloadQR_Click(object sender, EventArgs e)
+        {
+            string initialDIR = @"C:\Users\DELL\Desktop\JAY ANNE\PUP\2ND SEM\OBJECT PROG\QR CODES";
+            var dialog = new SaveFileDialog();
+            dialog.InitialDirectory = initialDIR;
+            dialog.Filter = "PNG|*.png|JPEG|*.jpg|GIF|*.gif|BMP|*.bmp";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                picbxQR.Image.Save(dialog.FileName);
+            }
+        }
     }
 }

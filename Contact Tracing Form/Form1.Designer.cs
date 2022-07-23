@@ -566,6 +566,7 @@
             this.btnDownloadQR.TabIndex = 34;
             this.btnDownloadQR.Text = "Download QR Code";
             this.btnDownloadQR.UseVisualStyleBackColor = true;
+            this.btnDownloadQR.Click += new System.EventHandler(this.btnDownloadQR_Click);
             // 
             // frmContactTracing
             // 
