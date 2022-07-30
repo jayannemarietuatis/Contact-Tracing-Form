@@ -96,7 +96,8 @@ namespace Contact_Tracing_Form
             QRCoder.QRCodeGenerator GetQR = new QRCoder.QRCodeGenerator();
             var text = (txtbxFirstName.Text + txtbxLastName.Text + txtbxAge.Text + txtbxGender.Text +
                 txtbxContactNumber.Text + txtbxHouseNumber.Text + txtbxDate.Text + txtbxStreet.Text +
-                txtbxCity.Text + txtbxZipCode.Text + txtbxPurpose.Text + txtbxBodyTemp.Text);
+                txtbxCity.Text + txtbxZipCode.Text + txtbxPurpose.Text + txtbxBodyTemp.Text + txtbxQ1.Text +
+                txtbxQ2.Text + txtbxQ3.Text + txtbxQ4.Text + txtbxQ5.Text + txtbxQ6.Text + txtbxQ7.Text + txtbxQ8.Text);
             var info = GetQR.CreateQrCode(text, QRCoder.QRCodeGenerator.ECCLevel.H);
             var code = new QRCoder.QRCode(info);
             picbxQR.Image = code.GetGraphic(50);

@@ -550,7 +550,7 @@
             // 
             // btnGenerateQR
             // 
-            this.btnGenerateQR.Location = new System.Drawing.Point(1178, 296);
+            this.btnGenerateQR.Location = new System.Drawing.Point(1178, 328);
             this.btnGenerateQR.Name = "btnGenerateQR";
             this.btnGenerateQR.Size = new System.Drawing.Size(166, 40);
             this.btnGenerateQR.TabIndex = 33;
@@ -560,7 +560,7 @@
             // 
             // btnDownloadQR
             // 
-            this.btnDownloadQR.Location = new System.Drawing.Point(1178, 342);
+            this.btnDownloadQR.Location = new System.Drawing.Point(1178, 374);
             this.btnDownloadQR.Name = "btnDownloadQR";
             this.btnDownloadQR.Size = new System.Drawing.Size(166, 40);
             this.btnDownloadQR.TabIndex = 34;

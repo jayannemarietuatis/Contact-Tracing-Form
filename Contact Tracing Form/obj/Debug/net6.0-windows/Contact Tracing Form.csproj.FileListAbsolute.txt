@@ -18,3 +18,7 @@ C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj
 C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\QRCoder.dll
 C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\UnityEngine.dll
 C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\obj\Debug\net6.0-windows\Contact Tracing Form.csproj.CopyComplete
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\DELL\Desktop\OOP Projects\Contact Tracing Form\Contact Tracing Form\bin\Debug\net6.0-windows\zxing.dll
